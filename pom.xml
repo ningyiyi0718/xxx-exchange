@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.exchange.demo</groupId>
+    <artifactId>xxx-exchange</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>coin-iaas</module>
+        <module>coin-common</module>
+        <module>coin-admin</module>
+        <module>coin-user</module>
+        <module>coin-liquidation</module>
+        <module>coin-push</module>
+        <module>coin-job</module>
+        <module>coin-statistics</module>
+        <module>match-engine</module>
+        <module>exchange</module>
+    </modules>
+
+
+</project>

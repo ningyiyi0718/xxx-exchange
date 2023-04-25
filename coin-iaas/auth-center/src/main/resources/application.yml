@@ -1,0 +1,17 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: auth-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.10:8848 # nacos-server:8848 修改本机的host
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/coin-exchange?useSSL=false&serverTimezon=GMT%28
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  redis:
+#    host: 192.168.56.10:6380
+#    password: 1q2w3e4r
